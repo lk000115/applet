@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div .aa:nth-child(1) {
-           font-weight: 600; 
-           color:brown;
+        section {
+            display: flex;
+            width: 60%;
+            height: 150px;
+            background-color:pink ;
+            margin: auto;
         }
+       section div:nth-child(1) {
+           width: 100px;
+           height: 150px; 
+           background-color: blue;
+       }
+       section DIV:nth-child(2){
+           flex:1 ;
+           background-color:green;
+       }
 
-        .aa {
-            color: blue;
-        } 
+       section div:nth-child(3){
+          width:100px ;
+          height:150px ;
+          background-color: red;
+       }
 
     </style>
 </head>
+
 <body>
-<div >
-    <p class="aa">11</p>
-    <p class="aa">22</p>
-    <p class="aa">33</p>
-</div>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
 
 
 </body>
+
 </html>
