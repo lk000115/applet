@@ -3,9 +3,31 @@ body {
   min-width: 320px;
   margin:0 auto;
   font:normal 14px/1.5 tahoma, "lucida grande", verdana, "microsoft yahei" , stxihei ,hei ;
-  color: black;
-  background-color: white;
+  color:#000;
+  background-color:#f2f2f2;
   overflow-x: hidden;
   -webkit-tap-highlight-color:transparent ;
+
+}
+
+.search-index {
+  display: flex;
+  /* 固定定位跟位置没关系,它以屏幕为准 */
+  position:fixed;
+  top: 0;
+  width: 100%;
+  max-width: 450px;
+  min-width: 320px;
+  height: 44px;
+  background-color: pink;
+  
+}
+.search {
+  flex: 1; 
+}
+.user {
+  width: 44px;
+  height: 44px;
+  background-color: purple;
 
 }
