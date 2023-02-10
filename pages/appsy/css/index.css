@@ -31,3 +31,9 @@ body {
   background-color: purple;
 
 }
+.focus {
+  padding-top: 44px;
+}
+.focus img {
+   width: 100%;
+}
