@@ -1,5 +1,5 @@
 body {
-  max-width: 450px;
+  max-width: 540px;
   min-width: 320px;
   margin:0 auto;
   font:normal 14px/1.5 tahoma, "lucida grande", verdana, "microsoft yahei" , stxihei ,hei ;
@@ -9,6 +9,11 @@ body {
   -webkit-tap-highlight-color:transparent ;
 
 }
+ a {
+    text-decoration: none;
+    color:#222;
+
+ }
 
 .search-index {
   display: flex;
@@ -16,7 +21,7 @@ body {
   position:fixed;
   top: 0;
   width: 100%;
-  max-width: 450px;
+  max-width: 540px;
   min-width: 320px;
   height: 44px;
   background-color: pink;
@@ -36,4 +41,38 @@ body {
 }
 .focus img {
    width: 100%;
+}
+/* 局部导航栏 */
+.local-nav {
+   display: flex;
+   height: 64px;
+   background-color: #fff;
+   margin: 3px 4px;
+   border-radius: 8px;
+
+}
+ul {
+ list-style: none;
+ margin: 0 ;
+ padding: 0;
+
+}
+.local-nav li {
+  flex: 1;
+}
+
+.local-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.local-nav-icon {
+   width: 32px;
+   height: 32px;
+   /* background-color: pink; */
+   margin-top: 8px;
+   background: url(../images/R-C3.png) no-repeat -104px -446px ;
+   background-size: 84px 84px;
+
 }
