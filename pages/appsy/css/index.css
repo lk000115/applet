@@ -24,18 +24,41 @@ body {
   max-width: 540px;
   min-width: 320px;
   height: 44px;
-  background-color: pink;
+  /* background-color: pink; */
   
 }
 .search {
+  height: 26px;
+  border: 1px solid #ccc;
   flex: 1; 
+  font-size: 10px;
+  margin: 5px 8px;
+  padding-top: 2px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0, .2) ;
 }
 .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 44px;
   height: 44px;
-  background-color: purple;
+  /* background-color: purple; */
+  margin:0 ;
+  padding:0;
+  font-size: 8px;
+}
+
+.user-icon {
+  width: 32px;
+  height: 26px;
+  /* background-color: pink;  */
+  background: url(../images/R-C.png) -168px -12px ;
+  background-size: 320px 502px;
 
 }
+
+
 .focus {
   padding-top: 44px;
 }
@@ -61,13 +84,13 @@ ul {
   flex: 1;
 }
 
-.local-nav a {
+.local-nav a  {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.local-nav-icon {
+.local-nav-icon  {
    width: 32px;
    height: 32px;
    /* background-color: pink; */
@@ -76,3 +99,4 @@ ul {
    background-size: 256px 181px;
 
 }
+
